@@ -23,13 +23,13 @@ The application has it built with 2 main parts:
 # Setup
 1. Clone project
 ```
-git clone https://github.com/nivswisa90/Humanz.git
+git clone https://github.com/nivswisa90/nClone.git
 
-cd Humanz
+cd nclone
 ```
 2. npm install
 ```
-cd frontend/humanz_client npm install
+npm install
 ```
 3. Run the Mock Backend
 ```
@@ -39,9 +39,7 @@ json-server --watch db.json
 
 To run the application, open 2 terminals, run backend and then frontend
 ```
-cd frontend/humanz_client npm start
-cd ../../
-cd backend npm start
+npm start
 ```
 # Contact
 
